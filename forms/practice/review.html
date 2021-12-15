@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Review</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <dl>
+        <dt><label for="title-select">Movie</label></dt>
+        <dd>
+          <select name="title" id="title-select" size="4">
+            <option>Looper</option>
+            <option>Frozen</option>
+            <option>Tommy Boy</option>
+            <option selected>Alien</option>
+          </select>
+        </dd>
+      </dl>
+
+      <dl>
+        <dt><label for="rating-select">Rating</label></dt>
+        <dd>
+          <input type="number" name="rating" id="rating-select"
+                min="1" max="5">
+        </dd>
+      </dl>
+
+      <div>
+        <label for="add-to-favorites">
+          <input type="checkbox" name="favorites?" id="add-to-favorites" checked>
+          Add to my favorites
+        </label>
+      </div>
+
+      <input type="submit" value="Rate movie">
+    </fieldset>
+  </form>
+</body>
+</html>
