@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <dl class="first-name">
+        <dt><label for="first-name">First Name</label></dt>
+        <dd><input type="text" id="first-name" name="first-name" /></dd>
+      </dl>
+
+      <dl class="last-name">
+        <dt><label for="last-name">Last Name</label></dt>
+        <dd><input type="text" id="last-name" name="last-name" /></dd>
+      </dl>
+
+      <dl class="email">
+        <dt><label for="email">Email Address</label></dt>
+        <dd><input type="email" id="email" name="email" placeholder="username@domain.com" /></dd>
+      </dl>
+
+      <dl class="city">
+        <dt><label for="city">City</label></dt>
+        <dd><input type="text" id="city" name="city" /></dd>
+      </dl>
+
+      <dl class="state">
+        <dt><label for="state">State</label></dt>
+        <dd>
+          <select id="state" name="state">
+            <option>AK</option>
+            <option>AL</option>
+            <option>AR</option>
+            <option>AZ</option>
+            <option>CA</option>
+            <option>CO</option>
+            <option>CT</option>
+            <option>DC</option>
+            <option>DE</option>
+            <option>FL</option>
+            <option>GA</option>
+            <option>HI</option>
+            <option>IA</option>
+            <option>ID</option>
+            <option>IL</option>
+            <option>IN</option>
+            <option>KS</option>
+            <option>KY</option>
+            <option>LA</option>
+            <option>MA</option>
+            <option>MD</option>
+            <option>ME</option>
+            <option>MI</option>
+            <option>MN</option>
+            <option>MO</option>
+            <option>MS</option>
+            <option>MT</option>
+            <option>NC</option>
+            <option>ND</option>
+            <option>NE</option>
+            <option>NH</option>
+            <option>NJ</option>
+            <option>NM</option>
+            <option>NV</option>
+            <option>NY</option>
+            <option>OH</option>
+            <option>OK</option>
+            <option>OR</option>
+            <option>PA</option>
+            <option>RI</option>
+            <option>SC</option>
+            <option>SD</option>
+            <option>TN</option>
+            <option>TX</option>
+            <option>UT</option>
+            <option>VA</option>
+            <option>VT</option>
+            <option>WA</option>
+            <option>WI</option>
+            <option>WV</option>
+            <option>WY</option>
+          </select>
+        </dd>
+      </dl>
+
+      <dl class="zip">
+        <dt><label for="zip">Zip</label></dt>
+        <dd><input type="text" id="zip" name="zip" minlength="5" maxlength="5" placeholder="#####" /></dd>
+      </dl>
+
+      <dl>
+        <dt><label for="color">What is your favorite color?</label></dt>
+        <dd>
+          <label>
+            <input type="radio" id="red" name="color" />
+            Red
+          </label>
+          <label>
+            <input type="radio" id="blue" name="color" />
+            Blue
+          </label>
+          <label>
+            <input type="radio" id="yellow" name="color" />
+            Yellow
+          </label>
+          <label>
+            <input type="radio" id="ochre" name="color" />
+            Ochre
+          </label>
+        </dd>
+      </dl>
+
+      <dl>
+        <dt><label for="tech">Which web technologies do you want to learn?</label></dt>
+        <dd>
+          <label>
+            <input type="checkbox" id="html" name="html" />
+            HTML
+          </label>
+          <label>
+            <input type="checkbox" id="css" name="css" />
+            CSS
+          </label>
+          <label>
+            <input type="checkbox" id="javascript" name="javascript" />
+            Javascript
+          </label>
+          <label>
+            <input type="checkbox" id="ruby" name="ruby" />
+            Ruby
+          </label>
+          <label>
+            <input type="checkbox" id="rails" name="rails" />
+            Rails
+          </label>
+          <label>
+            <input type="checkbox" id="java" name="java" />
+            Java
+          </label>
+        </dd>
+      </dl>
+
+      <dl>
+        <dt><label for="comment">Comment:</label></dt>
+        <dd>
+          <textarea id="comment" name="comment" rows="6" col="80"></textarea>
+        </dd>
+      </dl>
+
+      <input type="hidden" id="date" name="date" value="12/16/21" />
+      <input type="submit" id="submt" name="Send" />
+      <input type="reset" id="reset" name="Reset" />
+    </fieldset>
+  </form>
+</body>
+</html>
